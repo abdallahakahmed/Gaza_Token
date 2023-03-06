@@ -73,6 +73,7 @@ contract("GazaToken", function(accounts){
             assert.equal(allowance.toNumber(), 100, 'stores the allowance for delegated transfer');
         });
     });
+    
 
     it("handles delegated token transfers", function(){
         return GazaToken.deployed().then(function(instance){
@@ -112,6 +113,7 @@ contract("GazaToken", function(accounts){
             return tokenInstance.allowance(fromAccount, spendingAccount);
         }).then(function(allowance){
             assert.equal(allowance.toNumber(), 0, "deducts the amount from the allowance");
+
         }); 
     });
 
