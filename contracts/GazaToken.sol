@@ -49,7 +49,7 @@ contract GazaToken {
 
         emit Transfer(_from, _to, _value);
         
-        
+         
         return true;
     }
 
