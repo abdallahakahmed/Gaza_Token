@@ -1,0 +1,17 @@
+{
+    "name": "gaza-token-sale",
+    "version" : "1.0.0",
+    "description": "Gaza Token Sale ICO",
+    "main": "truffle-config.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "dev" : "lite-server"
+    },
+    "author": "Abdallah Ahmed",
+    "license": "ISC",
+    "devDependencies": {
+        "lite-server" : "^2.3.0"
+    }
+}
